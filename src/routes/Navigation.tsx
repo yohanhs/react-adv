@@ -20,7 +20,7 @@ export const Navigation = () => {
             <ul>
               {routes.map(({ name, patch }) => (
                 <li key={name}>
-                  <NavLink to={patch} activeClassName='nav-active' exact>
+                  <NavLink to={patch} activeClassName='nav-active'>
                     {name}
                   </NavLink>
                 </li>
